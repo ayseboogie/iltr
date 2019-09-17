@@ -13,7 +13,7 @@ import {Helmet} from "react-helmet";
 const IndexPage = () => (
   <Layout>
     <div style={{width: "100%"}}><Header /></div>
-    <div className="container">
+    <div style={{backgroundColor: "black", color: "white"}} className="container">
       {/* <SEO title={GatsbyConfig.siteMetadata.title} /> */}
      <Helmet><title>Newsroom, Trade, & Advertising</title></Helmet>
      <h1 className="page-title" style={{textAlign: "center"}}>Newsroom, Trade, & Advertising</h1>

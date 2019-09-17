@@ -1,11 +1,12 @@
 import React from "react";
+import Image from "../components/image"
 
 function header() {
 return (
-    <div style={{borderBottom: "1px #dae1e7 solid"}}>
+    <div style={{borderBottom: "1px #dae1e7 solid", backgroundColor: "black"}}>
     <header style={{paddingTop: "3%"}} className="nav">
-         <img style={{width: "15%"}} src="http://seekvectorlogo.com/wp-content/uploads/2018/11/lonely-planet-vector-logo.png" alt="lonely planet logo" />
-    </header>
+        <Image />
+             </header>
     </div>
 )
 }

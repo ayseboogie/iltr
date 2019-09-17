@@ -21,7 +21,7 @@ const MainContent = () => {
   `);
 
   return (
-    <div style={{textAlign: "left", alignContent: "left"}}>
+    <div style={{textAlign: "left", alignContent: "left", backgroundColor: "black"}}>
       <p>
         <b>Welcome to Lonely Planet&apos;s engine room, the hub for news, trade and
         advertising. If you need a media release, stock for your store or the

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Lonely Planet`,
-    description: `a limited code challenge testing the ability to render and style data using React and graphql`,
-    author: `@lonelyplanet`,
-  },
+    title: `It's Like That`,
+    description: `ILT`,
+    author: `Ayse Stinnett`,
+ },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-json`,

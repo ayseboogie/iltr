@@ -13,8 +13,8 @@ import "./layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <main>{children}</main>
+    <div style={{backgroundColor: "black"}}>
+     <main>{children}</main>
     </div>
   );
 };
