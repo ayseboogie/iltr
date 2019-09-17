@@ -23,6 +23,7 @@
     "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "webpack-cli": "^3.3.8"
   },
