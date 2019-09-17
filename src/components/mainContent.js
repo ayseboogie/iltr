@@ -31,7 +31,6 @@ const MainContent = () => {
         return (
           <HashRouter>
           <Fragment key={item.path}>
-            {/* cannot figure out how to pull img src from main.json and properly render */ }
             <h2 style={{paddingTop: "7px"}}>
               <a style={{color: "#297CBB", textDecoration: "none", fontSize: "30px"}} href={item.path}>{item.title}</a>
             </h2>
