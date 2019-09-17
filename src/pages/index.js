@@ -18,24 +18,12 @@ const IndexPage = () => (
   <Layout>
     <div><Header /></div>
     <div style={{backgroundColor: "black", color: "white"}} className="container">
-      {/* <SEO title={GatsbyConfig.siteMetadata.title} /> */}
-     <Helmet><title>Newsroom, Trade, & Advertising</title></Helmet>
-     <h1 className="page-title" style={{textAlign: "center"}}>Newsroom, Trade, & Advertising</h1>
+     <Helmet><title>It's Like That Records</title></Helmet>
      <Carousel />
-      <div className="column-wrapper">
-        <div className="left-column">
-          <MainContent />
-        </div>
-        <div className="right-column">
-          <RelativeLinks />
-          <br/>
-          <InternationalLinks />
-          <br />
-          <img src="https://s3resizer.mediaradar.com/s3resizer/Image/GetContent?adImageHash=1X+ximHnDCxnvuj6S26oeUoRmT0=" alt="Mastercard Ad" />
-         
-        </div>
-      </div>
+     <br/>
+      <h2 style={{textAlign: "center"}}>Good Company is available on all DSPs now!</h2>
     </div>
+    <Carousel />
   </Layout>
 );
 

@@ -4,9 +4,9 @@ import Image from "../components/image"
 function header() {
 return (
     <div style={{backgroundColor: "black", width: "100%", height: "100%"}}>
-    <header style={{paddingTop: "5%"}} className="nav">
+    <header className="nav">
         <div style={{textAlign: "center"}}>
-        <table style={{height: "100%", width: "100%", marginTop: "5%"}}>
+        <table style={{height: "100%", width: "100%"}}>
             <tr>
                 <td style={{width: "10%"}}>
                     Music
