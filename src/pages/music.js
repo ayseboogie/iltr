@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../components/image"
 import { Link } from "gatsby"
 
-function header() {
+function music() {
 return (
     <div style={{backgroundColor: "black", width: "100%", height: "100%"}}>
     <header className="nav">
@@ -13,16 +13,28 @@ return (
                   <Link to="/music/">Music</Link>
                 </td>
                 <td style={{width: "10%"}}>
-                    <Link to="/artists/">Artists</Link>
+                  &nbsp;
+                </td>
+                <td style={{width: "10%"}}>
+                    Artists
+                </td>
+                <td style={{width: "10%"}}>
+                  &nbsp;
                 </td>
                 <td style={{width: "10%"}}>
                     <Image />
                 </td>
                 <td style={{width: "10%"}}>
-                   <Link to="/videos/">Videos</Link>
+                  &nbsp;
+                </td>
+                <td style={{width: "10%"}}>
+                    Videos
+                </td>
+                <td style={{width: "10%"}}>
+                  &nbsp;
                 </td>
                 <td style={{width: "20%"}}>
-                    <Link to="/contact/">Contact</Link>
+                    Contact
                 </td>
             </tr>
         </table>
@@ -32,4 +44,4 @@ return (
 )
 }
 
-export default header
+export default music
