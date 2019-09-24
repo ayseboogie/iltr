@@ -3,9 +3,12 @@ import { Link } from "gatsby"
 import CardDeck from "react-bootstrap/CardDeck"
 import Card from "react-bootstrap/Card"
 import Header from "../components/header"
+import Layout from "../components/layout";
+import Footer from "../components/footer"
 
 function artists() {
 return (
+  <Layout>
     <div style={{backgroundColor: "black"}}>
         <Header />
         <br/>
@@ -16,8 +19,8 @@ return (
     </a>
     <Card.Body>
       <Card.Title>JAH FRIDA</Card.Title>
-      <Card.Text>
-        Talk about choself?
+      <Card.Text style={{fontSize: "12px"}}>
+      Jah Frida is a contemporary artist based out of Nashville. His infectious melodies and colorful production provide a truly remarkable listening experience.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -76,6 +79,8 @@ return (
   </Card>
 </CardDeck>
     </div>
+    <Footer />
+    </Layout>
 )
 }
 

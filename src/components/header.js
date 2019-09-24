@@ -1,34 +1,28 @@
 import React from "react";
 import Image from "../components/image"
 import { Link } from "gatsby"
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
+import NavDropdown from "react-bootstrap/NavDropdown"
 
 function header() {
 return (
-    <div style={{backgroundColor: "black", width: "100%", height: "100%"}}>
-    <header className="nav">
-        <div style={{textAlign: "center"}}>
-        <table style={{height: "100%", width: "100%"}}>
-            <tr>
-                <td style={{width: "10%"}}>
-                  <Link to="/music/">Music</Link>
-                </td>
-                <td style={{width: "10%"}}>
-                    <Link to="/artists/">Artists</Link>
-                </td>
-                <td style={{width: "10%"}}>
-                    <Image />
-                </td>
-                <td style={{width: "10%"}}>
-                   <Link to="/videos/">Videos</Link>
-                </td>
-                <td style={{width: "20%"}}>
-                    <Link to="/contact/">Contact</Link>
-                </td>
-            </tr>
-        </table>
-        </div>
-             </header>
-    </div>
+       <Navbar collapseOnSelect expand="lg" style={{backgroundColor: "black"}} variant="dark">
+  <Navbar.Brand href="#home" style={{textAlign: "center", alignContent: "center", paddingLeft: "3%"}}><Link to="/"><Image /></Link></Navbar.Brand>
+
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
+        &nbsp;
+    </Nav>
+    <Nav >
+    <Nav.Link><Link style={{color: "white", fontSize: "22px", marginRight: "14px"}}  to="/music/">MUSIC</Link></Nav.Link> 
+      <Nav.Link><Link style={{color: "white", fontSize: "22px", marginRight: "14px"}} to="/artists/">ARTISTS</Link></Nav.Link>
+      <Nav.Link><Link style={{color: "white", fontSize: "22px", marginRight: "14px"}} to="/videos/">VIDEOS</Link></Nav.Link>
+      <Nav.Link><Link style={{color: "white", fontSize: "22px", marginRight: "14px"}} to="/contact/">CONTACT</Link></Nav.Link> 
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
 )
 }
 
