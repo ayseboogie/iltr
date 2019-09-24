@@ -14,6 +14,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import GoodCompany from "../components/goodCompany";
 import { Link } from "gatsby"
 import Footer from "../components/footer"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = () => (
   <Layout>

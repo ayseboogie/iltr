@@ -23,7 +23,7 @@ return (
    </div>
 </footer>
   <br/>
-  <a style={{color: "white", textAlign: "left"}}> © 2019 by It's Like That Records </a>
+  <a style={{color: "white", textAlign: "left"}}> © 2019 It's Like That Records, powered by AyseBoogie </a>
 
 </div>
 )

@@ -6,71 +6,48 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Helmet from "react-helmet";
 import Footer from "../components/footer"
+import Layout from "../components/layout";
+import Card from 'react-bootstrap/Card'
+import CardDeck from 'react-bootstrap/CardDeck'
 
-
-class contact extends Component {
-  render() {
-    return (
-      <div>
-        <Helmet><title>Contact Us</title></Helmet>
+function contact() {
+  return (
+    <Layout>
           <Header />
-          <div style={{backgroundColor: "black", color: "white", paddingLeft: "4%", paddingRight: "4%"}}>
-          <Form>
-  <Form.Row>
-    <Form.Group as={Col} controlId="formGridEmail">
+          <Form style={{backgroundColor: "black", color: "white", paddingLeft: "4%", paddingRight: "4%"}}v>
+          <Form.Row>
+    <Form.Group as={Col} controlId="formGridFirstName">
+      <Form.Label>First Name</Form.Label>
+      <Form.Control placeholder="Enter First Name" />
+    </Form.Group>
+
+    <Form.Group as={Col} controlId="formGridLastName">
+      <Form.Label>Last Name</Form.Label>
+      <Form.Control placeholder="Enter Last Name" />
+    </Form.Group>
+  </Form.Row>
+
+  <Form.Group controlId="formGridEmail">
       <Form.Label>Email</Form.Label>
-      <Form.Control type="email" placeholder="Enter email" />
+      <Form.Control type="email" placeholder="Email Address" />
     </Form.Group>
 
-    <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Password</Form.Label>
-      <Form.Control type="password" placeholder="Password" />
-    </Form.Group>
-  </Form.Row>
-
-  <Form.Group controlId="formGridAddress1">
-    <Form.Label>Address</Form.Label>
-    <Form.Control placeholder="1234 Main St" />
+  <Form.Group controlId="formGridSubject">
+    <Form.Label>Subject</Form.Label>
+    <Form.Control placeholder="Enter Subject" />
   </Form.Group>
-
-  <Form.Group controlId="formGridAddress2">
-    <Form.Label>Address 2</Form.Label>
-    <Form.Control placeholder="Apartment, studio, or floor" />
-  </Form.Group>
-
-  <Form.Row>
-    <Form.Group as={Col} controlId="formGridCity">
-      <Form.Label>City</Form.Label>
-      <Form.Control />
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridState">
-      <Form.Label>State</Form.Label>
-      <Form.Control as="select">
-        <option>Choose...</option>
-        <option>...</option>
-      </Form.Control>
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridZip">
-      <Form.Label>Zip</Form.Label>
-      <Form.Control />
-    </Form.Group>
-  </Form.Row>
-
-  <Form.Group id="formGridCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
+  <Form.Group controlId="formGridMessage">
+    <Form.Label>Message</Form.Label>
+    <Form.Control placeholder="Enter Message" />
   </Form.Group>
 
   <Button variant="primary" type="submit">
     Submit
   </Button>
 </Form>
-</div>
-<Footer />
-      </div>
-    );
+      <Footer />
+      </Layout>
+  )
   }
-}
  
 export default contact;
