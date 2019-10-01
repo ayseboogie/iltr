@@ -13,6 +13,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 function contact() {
   return (
     <Layout>
+      <div style={{backgroundColor: "black", height: "100vh"}}>
           <Header />
           <Form style={{backgroundColor: "black", color: "white", paddingLeft: "4%", paddingRight: "4%"}}v>
           <Form.Row>
@@ -45,6 +46,7 @@ function contact() {
     Submit
   </Button>
 </Form>
+      </div>
       <Footer />
       </Layout>
   )

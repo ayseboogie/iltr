@@ -13,15 +13,16 @@ return (
    <div style={{textAlign: "center"}}>
 <iframe width="90%" height="600" src="https://www.youtube.com/embed/-GgUOTRxF4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+{/* 1 */}
    <CardDeck style={{paddingLeft: "4%", paddingRight: "4%"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQ015OmRRS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZQ015OmRRS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/UcN8ENDMgMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/UcN8ENDMgMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>
@@ -29,12 +30,12 @@ return (
 <CardDeck style={{paddingLeft: "4%", paddingRight: "4%"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/FQVYKF7f6cY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/FQVYKF7f6cY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/dGhTWrZQTEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/dGhTWrZQTEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>
@@ -42,12 +43,12 @@ return (
 <CardDeck style={{paddingLeft: "4%", paddingRight: "4%"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bTAXx1wHVi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/bTAXx1wHVi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/rLOkrACvExo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/rLOkrACvExo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>
@@ -55,17 +56,17 @@ return (
 <CardDeck style={{paddingLeft: "6%", paddingRight: "4%", textAlign: "center", alignContent: "center"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="300" height="315" src="https://www.youtube.com/embed/aPS-zbw5S9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/aPS-zbw5S9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="300" height="315" src="https://www.youtube.com/embed/7DQMR_ftqOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/7DQMR_ftqOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="300" height="315" src="https://www.youtube.com/embed/RvR3q1hbt9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/RvR3q1hbt9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>
@@ -73,12 +74,12 @@ return (
 <CardDeck style={{paddingLeft: "4%", paddingRight: "4%"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/g7lcDt4HAms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/g7lcDt4HAms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/6AIzvc9-1As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/6AIzvc9-1As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>
@@ -86,12 +87,12 @@ return (
 <CardDeck style={{paddingLeft: "4%", paddingRight: "4%"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9HvpNPOaDTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/9HvpNPOaDTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/amJwNwxT6-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/amJwNwxT6-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>
@@ -99,12 +100,12 @@ return (
 <CardDeck style={{paddingLeft: "4%", paddingRight: "4%"}}>
   <Card style={{backgroundColor: "black"}}>
     <Card.Body style={{backgroundColor: "black"}}>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XPwtc-WtsOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XPwtc-WtsOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
   <Card style={{backgroundColor: "black"}}>
        <Card.Body style={{backgroundColor: "black"}}>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/9n5_yACV9Os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="315" src="https://www.youtube.com/embed/9n5_yACV9Os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Card.Body>
   </Card>
 </CardDeck>

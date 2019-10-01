@@ -31,7 +31,9 @@ const IndexPage = () => (
       <h2 style={{textAlign: "center", color: "white"}}>(Click The Cover Below)</h2>
       <br/>
       <div style={{alignContent: "center", textAlign: "center"}}>
+      <a style={{textDecoration: "none", color: "black"}} href="http://hyperurl.co/goodcompany" target="_blank" rel="noopener noreferrer">
         <GoodCompany />
+       </a>
         </div>
   </div>
   <Footer />
