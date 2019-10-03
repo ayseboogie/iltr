@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card"
 import Header from "../components/header"
 import Layout from "../components/layout";
 import Footer from "../components/footer"
+import styles from "./artist.module.css";
 
 function artists() {
 return (
@@ -12,8 +13,8 @@ return (
     <div style={{backgroundColor: "black"}}>
         <Header />
     <CardDeck style={{paddingLeft: "30px", paddingRight: "30px"}}>
-  <Card>
-    <a style={{textDecoration: "none", color: "black"}} href="https://open.spotify.com/artist/7uA4eVq3m2ziWRlQxIKt3I" target="_blank" rel="noopener noreferrer">
+  <Card >
+    <a className={styles.flippy} style={{textDecoration: "none", color: "black"}} href="https://open.spotify.com/artist/7uA4eVq3m2ziWRlQxIKt3I" target="_blank" rel="noopener noreferrer">
       <Card.Img variant="top" src={require('./jahfridahead.png')} />
     </a>
     <Card.Body>

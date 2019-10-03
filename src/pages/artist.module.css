@@ -1,0 +1,9 @@
+.flippy:hover {
+    transform: translateX(1.25rem);
+    opacity: 0.5;
+  }
+
+  .flippy {
+      display: inline-block;
+      position: relative;
+  }
